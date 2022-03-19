@@ -1,0 +1,60 @@
+/*Header*/
+.header {
+    background-color: #23222b;
+    color: white;
+    height: 85px;
+    margin-bottom: 1.5em;
+    font-size: 105%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75em;
+}
+
+.nav .link {
+    color: inherit;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #61dafb;
+}
+
+.nameAndGroup {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        font-size: 100%;
+        padding: 0.25em;
+        justify-content: center;
+    }
+
+    .nav a:first-child {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        font-size: 110%;
+        padding: 0.5em;
+    }
+
+    .nameAndGroup {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1187px) {
+    .header {
+        font-size: 120%;
+        padding: 0.75em;
+    }
+
+    .nameAndGroup {
+        display: block;
+    }
+}

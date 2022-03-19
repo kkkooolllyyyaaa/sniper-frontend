@@ -1,0 +1,50 @@
+.result {
+    margin: 3em;
+    width: 80%;
+    display: inline-block;
+}
+
+.resultTable {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    background-color: #61dafb;
+
+    border: 2px solid #23222b;
+    border-radius: 2em;
+    border-spacing: 0.5em;
+}
+
+.resultTable thead {
+    font-weight: bold;
+    color: #6366F1;
+}
+
+.resultTable td {
+    padding: 0.35em 0.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .resultTable {
+        font-size: 14px;
+    }
+
+    .resultTable thead {
+        font-weight: normal;
+    }
+
+    .resultTable td {
+        padding: 0.21em 0.3em;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .resultTable {
+        font-size: 16px;
+    }
+
+    .resultTable td {
+        padding: 0.28em 0.4em;
+    }
+}

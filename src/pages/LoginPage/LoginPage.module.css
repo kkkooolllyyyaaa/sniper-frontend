@@ -1,0 +1,27 @@
+.Login {
+    padding: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 7%;
+    margin: 1% 0.25%;
+}
+
+@media screen and (min-width: 879px) {
+    .buttons button {
+        width: 6%;
+        margin: 1% 0.25%;
+    }
+}
+
+@media screen and (min-width: 1187px) {
+    .buttons button {
+        width: 7%;
+        margin: 1% 0.25%;
+    }
+}

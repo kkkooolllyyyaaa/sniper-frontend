@@ -1,0 +1,38 @@
+/*GRAPH*/
+.svgCoordinates {
+    margin: 1em 1.5em 1em 1em;
+}
+
+.coordinatesFigure {
+    fill: #61dafb;
+    stroke-width: 2px;
+    stroke: #23222b;
+}
+
+.coordinatesFigureHelper {
+    fill: #61dafb;
+    stroke: #61dafb;
+}
+
+.coordinateAxis {
+    stroke-width: 2px;
+    stroke: #23222b;
+    fill: #61dafb;
+}
+
+.coordinatesMarker {
+    stroke-width: 2px;
+    stroke: #23222b;
+}
+
+.coordinatesText {
+    fill: #23222b;
+    stroke-width: 1px;
+    stroke: #23222b;
+}
+
+@media screen and (min-width: 1187px) {
+    .svgCoordinates {
+        float: right;
+    }
+}
