@@ -1,4 +1,5 @@
-![image](<img width="564" alt="image" src="https://user-images.githubusercontent.com/72232007/159190940-8a94a437-b42d-4a4c-b207-2dc34625bc80.png">)
+
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/72232007/159190953-c7150ebb-e580-44cc-ac79-0727a18cf8c1.png">
 
 
 # Getting Started with Create React App
